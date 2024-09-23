@@ -8,7 +8,6 @@ async function getAllProducts() {
 
 export default async function Products() {
     const products = await getAllProducts()
-    const defaultImage = "https://api.lorem.space/v1/products"
 
     return (
         <div  className='grid grid-cols-12 gap-4 pb-4 w-[90%] m-auto mt-20'>

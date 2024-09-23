@@ -1,4 +1,4 @@
-import Link from 'next/link'
+
 import React from 'react'
 import Product from './Products/page'
 import ContactUs from './ContactUs/page'
