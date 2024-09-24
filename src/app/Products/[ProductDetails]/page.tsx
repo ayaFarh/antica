@@ -10,7 +10,7 @@ export default async function ProductDetails({params}:any) {
   const res = await getAllProduct(params.ProductDetails)
   return (
    <>
-    <div className='grid grid-cols-12 pb-4'>
+    <div className='grid grid-cols-12 pb-4 min-h-screen mt-20 w-[90%] m-auto'>
     <div className='col-span-12 md:col-span-4 lg:col-span-4 xl:col-span-4'>
       <img src={res.images} alt={res.title} className='w-full' />
     </div>

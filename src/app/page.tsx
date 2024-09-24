@@ -3,6 +3,7 @@ import React from 'react'
 import Product from './Products/page'
 import ContactUs from './ContactUs/page'
 import HomeSlider from './_Component/HomeSlider/page'
+import Image from 'next/image'
 
 
 
@@ -16,7 +17,8 @@ export default  function Home() {
    <div className='my-10'>
    <div className='grid grid-cols-12 gap-4'>
     <div className='col-span-12 md:col-span-6 lg:col-span-6 xl:col-span-6'>
-    <img src='https://vue-ecom.vercel.app/img/new.jpg' className='w-full'/>
+    <Image src='https://vue-ecom.vercel.app/img/new.jpg' className='w-full'
+    width={500} height={500} alt='image'/>
     </div>
     <div className='col-span-12 md:col-span-6 lg:col-span-6 xl:col-span-6'>
     <h3 className='text-2xl font-bold text-red-500'>New minimalist</h3>
@@ -40,7 +42,9 @@ Don’t hesitate to pause. Follow the flow of the moment. And then, take the fir
 
 
     <div className='col-span-12 md:col-span-6 lg:col-span-6 xl:col-span-6 '>
-   <img src='https://vue-ecom.vercel.app/img/33.jpg' className='w-full'/>
+   <Image src='https://vue-ecom.vercel.app/img/33.jpg' className='w-full'
+   alt='image' width={500} height={500}
+   />
    </div>
     </div>
 
